@@ -75,7 +75,7 @@
 <main>
 <article>
   <h1>Plunder — Privacy Policy</h1>
-  <p class="updated">Effective date: 3 November 2026</p>
+  <p class="updated">Effective date: 11 November 2026</p>
 
   <p>This policy explains what information the game <strong>Plunder</strong> (“the app”), made by the
   independent developer <strong>Reinghord</strong> (“we”, “us”), uses when you play, and why. It applies
@@ -106,8 +106,13 @@
   played. Like your name, this exists only in memory during the game.</p>
 
   <h3>Technical connection data</h3>
-  <p>To connect you to a game, your device’s IP address is necessarily visible to our server. We don’t
-  store it or use it to identify you. Our server is hosted by <a href="https://render.com/privacy">Render</a>,
+  <p>When you open the app, it asks our game server whether online play is available and whether your
+  version of the app is still supported. When you join an online game, the app also sends its version
+  number so the server can check it is compatible.</p>
+  <p>To connect you to a game, your device’s IP address is necessarily visible to our server. When the
+  server is busy, it uses your IP address for up to about 30 seconds while you wait in the queue for a
+  seat, so that no single address can take all the free seats. It is kept only in memory, is not written
+  to a database, and is not used to identify you. Our server is hosted by <a href="https://render.com/privacy">Render</a>,
   which may keep standard access logs (such as IP address and time of request) for a limited time, under
   its own privacy policy.</p>
 
@@ -118,7 +123,7 @@
 
   <h3>Saved on your device only</h3>
   <p>The app stores a few things on your device so they’re remembered next time: your player name, language,
-  colour theme, single-player settings, and a short-lived token that lets you rejoin an online game if
+  colour theme, single-player settings, whether you’ve been offered the tutorial, and a short-lived token that lets you rejoin an online game if
   your connection drops. This stays on your device and is removed when you uninstall the app or clear its
   data.</p>
 
@@ -140,18 +145,22 @@
 
   <h2>4. Links to other sites</h2>
   <p>The app has a button that opens our <a href="https://discord.com">Discord</a> community in your
-  browser or the Discord app. What happens there is covered by Discord’s own privacy policy.</p>
+  browser or the Discord app. If your version of the app is too old to play online, it can also open
+  Plunder’s page in Google Play or the App Store so you can update. What happens on those sites is
+  covered by their own privacy policies.</p>
 
   <h2>5. How long information is kept</h2>
   <ul>
     <li>Player name and gameplay on the game server: only while the game room exists.</li>
+    <li>IP address in the server’s waiting queue: about 30 seconds at most.</li>
     <li>Data saved on your device: until you uninstall the app or clear its data.</li>
     <li>Hosting and update-service logs: as long as Render’s and Expo’s policies say, usually a limited time.</li>
   </ul>
 
   <h2>6. Security</h2>
   <p>Online games connect to our server over encrypted connections (HTTPS / secure WebSockets). Local network
-  games travel directly between phones on your own Wi-Fi network.</p>
+  games travel directly between phones on your own Wi-Fi network and are not encrypted, so only play them
+  on a network you trust.</p>
 
   <h2>7. Children</h2>
   <p>Plunder is not directed at children under 13 (or the equivalent minimum age in your country), and we
@@ -161,8 +170,8 @@
   help.</p>
 
   <h2>8. Your choices and rights</h2>
-  <p>You can play under any name you like, play offline (single player, tutorial) without contacting our
-  server at all, and delete everything saved on your device by uninstalling the app. Depending on where you
+  <p>You can play under any name you like, play single player and the tutorial with no game data sent
+  to our server (and with no internet connection at all), and delete everything saved on your device by uninstalling the app. Depending on where you
   live (for example under the GDPR in the EU/UK or the CCPA in California), you may have rights to access,
   correct or delete personal information. Since we don’t keep any after a game ends, there is usually
   nothing stored to return or delete — but you are welcome to contact us with any request or question.</p>
